@@ -5,3 +5,9 @@
 # 環境要求
 
 - Jest
+
+# 執行方式
+
+1. 如果有安裝 Jest CLI 者，執行 `jest` 即可跑所有測試
+2. 如果沒有裝 Jest CLI 者，可執行 `npx jest` 即可跑所有測試
+3. 如果有安裝 wallaby.js 者，可以在 VSCode 下執行 wallaby 即可
