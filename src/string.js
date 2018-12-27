@@ -1,7 +1,7 @@
-function padLeft(text, maxLength, fillCharater){
-    return text;
+function padLeft(text, maxLength, fillCharater) {
+  return text;
 }
 
 module.exports = {
-    padLeft;
+  padLeft
 };
