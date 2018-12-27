@@ -4,8 +4,6 @@
  * @param [size=1] (number): The length of each chunk
  * @return array (Array): Returns the new array of chunks.
  */
-function chunk(array) {
+export function chunk(array, size) {
   return 1;
 }
-
-module.exports = chunk;

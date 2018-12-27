@@ -1,7 +1,7 @@
-const solution = require('../../src/kata/prize-draw');
+import { prizeDraw } from '../../src/kata/prize-draw';
 
 function testing(st, we, n, expected) {
-  expect(solution.prizeDraw(st, we, n)).toEqual(expected);
+  expect(prizeDraw(st, we, n)).toEqual(expected);
 }
 
 describe('Fixed Tests', () => {

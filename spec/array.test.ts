@@ -1,5 +1,5 @@
+import * as array from '../src/array';
 describe('array', () => {
-  const array = require('../src/array');
   let data;
   beforeEach(() => {
     data = [0, 1, 2, 3, 4, 5];

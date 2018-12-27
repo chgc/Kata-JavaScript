@@ -1,7 +1,7 @@
-const _ = require('lodash');
+import * as _ from 'lodash';
+import { chunk } from '../src/chunk';
 
 describe('chunk', () => {
-  const chunk = require('../src/chunk');
   let array;
   beforeEach(() => {
     array = [0, 1, 2, 3, 4, 5];

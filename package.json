@@ -10,7 +10,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^23.6.0"
+    "@types/jest": "^23.3.10",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.2.2"
   },
   "dependencies": {
     "lodash": "^4.17.11"
