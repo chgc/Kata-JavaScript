@@ -1,4 +1,4 @@
-import { prizeDraw } from '../../src/kata/prize-draw';
+import { prizeDraw } from '../../src/kata/PrizeDraw/prize-draw';
 
 function testing(st, we, n, expected) {
   expect(prizeDraw(st, we, n)).toEqual(expected);
